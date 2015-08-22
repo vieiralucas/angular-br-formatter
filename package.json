@@ -1,0 +1,20 @@
+{
+  "name": "ng-format-br",
+  "version": "0.0.0",
+  "description": "Collection of angular filters and directives for Brazilian data formats",
+  "main": "src/format-br.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "angular",
+    "format",
+    "br",
+    "brazil",
+    "mask",
+    "filter",
+    "directive"
+  ],
+  "author": "Lucas Vieira <vieiralucas4@gmail.com>",
+  "license": "MIT"
+}
