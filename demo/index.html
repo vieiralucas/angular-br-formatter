@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="brFormatterApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Angular Br Formatter</title>
+</head>
+<body ng-controller="MainCtrl">
+    <section>
+        <h1>Phone Filter</h1>
+        <input type="text" ng-model="phone">
+        {{ phone | brPhoneFormatter }}
+    </section> 
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
+    <script src="../dist/angular-br-formatter.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
