@@ -1,6 +1,6 @@
 angular
-    .module('format-br')
     .filter('phoneFormatBr', phoneFormat);
+    .module('br-formatter')
 
 function phoneFormat(value) {
     if (!value || typeof value !== 'string') {

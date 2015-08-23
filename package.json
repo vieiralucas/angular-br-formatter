@@ -1,5 +1,5 @@
 {
-  "name": "ng-format-br",
+  "name": "angular-br-formatter",
   "version": "0.0.0",
   "description": "Collection of angular filters and directives for Brazilian data formats",
   "main": "src/format-br.js",
