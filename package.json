@@ -2,7 +2,7 @@
   "name": "angular-br-formatter",
   "version": "0.0.0",
   "description": "Collection of angular filters and directives for Brazilian data formats",
-  "main": "src/format-br.js",
+  "main": "dist/angular-br-formatter.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,8 +13,18 @@
     "brazil",
     "mask",
     "filter",
-    "directive"
+    "directive",
+    "brasil",
+    "formatador",
+    "telefone"
   ],
   "author": "Lucas Vieira <vieiralucas4@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "del": "^1.2.1",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.2.0"
+  }
 }
