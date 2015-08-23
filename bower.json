@@ -1,0 +1,37 @@
+{
+  "name": "angular-br-formatter",
+  "version": "0.0.0",
+  "homepage": "https://github.com/vieiralucas/angular-br-formatter",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vieiralucas/angular-br-formatter.git"
+  },
+  "authors": [
+    "Lucas Vieira <vieiralucas4@gmail.com>"
+  ],
+  "description": "Collection of angular filters and directives for Brazilian data formats",
+  "main": "dist/angular-br-formatter.js",
+  "keywords": [
+    "angular",
+    "module",
+    "format",
+    "br",
+    "brazil",
+    "mask",
+    "filter",
+    "directive",
+    "collection",
+    "phone",
+    "brasil",
+    "formatador",
+    "telefone"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
