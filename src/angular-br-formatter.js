@@ -1,1 +1,5 @@
-angular.module('br-formatter', []);
+(function() {
+    'use strict';
+
+    angular.module('br-formatter', []);
+}());

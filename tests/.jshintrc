@@ -1,0 +1,6 @@
+{
+    "jasmine": true,
+    "predef": [
+        "inject"
+    ]
+}
