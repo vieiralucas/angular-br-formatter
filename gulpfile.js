@@ -5,6 +5,7 @@ var gulp = require('gulp'),
     rename = require('gulp-rename'),
     uglify = require('gulp-uglify'),
     del = require('del'),
+    jshint = require('gulp-jshint'),
 
     path = {
         src: ['src/**/*.js']
@@ -24,3 +25,15 @@ gulp.task('build', ['clean'], function() {
         .pipe(gulp.dest('dist'));
 });
 
+gulp.task('test', function(done) {
+    new karmaServer({
+        configFile: __dirname + '/tests/karma.conf.js',
+        singleRun: true
+    }, done).start();
+});
+
+gulp.task('karmaWatch', function(done) {
+    new karmaServer({
+        configFile: __dirname + '/tests/karma.conf.js'
+    }, done).start();
+});
