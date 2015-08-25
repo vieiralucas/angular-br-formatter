@@ -7,9 +7,13 @@
 <body ng-controller="MainCtrl">
     <section>
         <h1>Phone Filter</h1>
-        <input type="text" ng-model="phone">
-        {{ phone | brPhoneFormatter }}
-    </section> 
+        <input type="text" ng-model="phoneFilter">
+        {{ phoneFilter | brPhoneFormatter }}
+    </section>
+    <section>
+        <h1>Phone Directive</h1>
+        <input type="text" ng-model="phone" br-phone>
+    </section>
 
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
     <script src="../dist/angular-br-formatter.min.js"></script>
