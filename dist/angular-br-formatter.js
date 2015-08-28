@@ -53,6 +53,7 @@
             }
 
             value = value.replace(/[^0-9.]/g, ''); // remove everything but digits
+            value = value.substring(0, 11); // limit to 11 digits
 
             var length = value.length;
 
