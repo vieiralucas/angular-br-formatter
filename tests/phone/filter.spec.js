@@ -25,6 +25,10 @@ describe('Filter: brPhoneFormatter', function() {
         expect($filter('brPhoneFormatter')('!@#12')).toEqual('12');
     });
 
+    it('should limit to 11 digits', function() {
+        expect($filter('brPhoneFormatter')('123456789012')).toEqual('(12) 3456-78901');
+    });
+
     it('should just return given digits until length is bigger than 5', function() {
         expect($filter('brPhoneFormatter')('1')).toEqual('1');
         expect($filter('brPhoneFormatter')('12')).toEqual('12');
